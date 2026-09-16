@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['alligator_crack', 'block_crack', 'edge_crack', 'longitudinal_crack', 'patching', 'polished_aggregate', 'pothole', 'raveling', 'shoving', 'transverse_crack', 'utility_cut_patching']
+
+roboflow:
+  workspace: path-c44q4
+  project: road-distress-d5vub
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/path-c44q4/road-distress-d5vub/dataset/11
